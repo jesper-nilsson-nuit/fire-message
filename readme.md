@@ -7,15 +7,14 @@ Based on <a href="https://fabiensanglard.net/doom_fire_psx/">Fabien Sanglard's '
 ## Features
 
 - Real-time fire simulation in the terminal
-- Text messages revealed through the fire animation
+- Text message revealed through the fire animation
 - Frame rate control using delta time calculations
-- Interactive - waits for user input to continue
 
 ## Technical Details
 
 - Written in Python
 - Uses ANSI escape codes for colorful terminal output
-- Terminal size detection for responsive display
+- Terminal size detection for responsive display (not perfect)
 - Implements a fire spreading algorithm
 
 ## How It Works
@@ -24,7 +23,7 @@ The animation simulates fire using a pixel array and spreading algorithm:
 - Fire intensity is represented by color values (0-9)
 - The bottom row acts as the fire source
 - Fire propagates upward with random decay
-- Text messages are revealed when the fire reaches their position
+- Text message is revealed when the fire reaches each letters position
 
 ## Usage
 
@@ -34,8 +33,7 @@ Run the script with:
 python fire_test.py
 ```
 
-Press ENTER to exit the animation when prompted.
-
 ## Preview
 
-<img src="previewImage.png" alt="Preview of the Fire Animation" width="500"/>
+![Animation Demo](preview.gif)
+

@@ -2,6 +2,8 @@
 
 A dynamic fire animation that runs in the terminal with interactive text display.
 
+Based on <a href="https://fabiensanglard.net/doom_fire_psx/">Fabien Sanglard's 'How DOOM fire was done'</a>
+
 ## Features
 
 - Real-time fire simulation in the terminal

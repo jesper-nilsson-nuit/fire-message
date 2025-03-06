@@ -38,4 +38,4 @@ Press ENTER to exit the animation when prompted.
 
 ## Preview
 
-<img src="firePreview.png" alt="Preview of the Fire Animation" width="600"/>
+<img src="previewImage.png" alt="Preview of the Fire Animation" width="500"/>
